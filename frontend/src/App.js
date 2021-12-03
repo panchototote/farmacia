@@ -8,8 +8,8 @@ function App() {
                 <a className="brand" href="index.html">Tu-Farmacia</a>
             </div>
             <div>
-                <a href="cart.html">Carro</a>
-                <a href="signin.html">Entrar</a>
+                <a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+                <a href="signin.html"><i class="fas fa-power-off"></i></a>
             </div>
         </header>
         <main>
