@@ -1,0 +1,124 @@
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+html{
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+body{
+  background-color:  #ebf5fb;
+  margin:0;
+  height: 100vh;
+  font-size: 1.6rem;
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+#root{
+  height: 100%;
+}
+
+/* layout */
+.grid-container{
+  display: grid;
+  grid-template-areas: 
+  'header'
+  'main'
+  'footer';
+  grid-template-columns: 1fr;
+  grid-template-rows: 5rem 1fr 5rem;
+  height: 100%;
+}
+header{
+  grid-area: header;
+  background-color:  #2471a3;
+  color: #faebd7;
+}
+main{
+  grid-area: main;
+  padding: 1rem;
+}
+footer{
+  grid-area: footer;
+  background-color:  #2471a3;
+  color: #faebd7;
+}
+
+
+/* clases comunes */
+a{
+  color: antiquewhite;
+  text-decoration: none;
+}
+a:hover{
+  color:  #DAF7A6 ;
+}
+/* header links*/
+header a{
+  color: #faebd7;
+  padding: 1rem;
+}
+a.brand{
+  color: #faebd7;
+  font-size: 3rem;
+  font-weight: bold;
+}
+a.brand:hover{
+  color:  #d1f2eb  ;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.row.center{
+  justify-content: center;
+}
+img{
+  border-radius: 0.5rem;
+}
+img.medium{
+  max-width: 100%;
+  width: 100%;
+}
+/* Card*/
+.card{
+  border: 0.1rem  #ebf5fb solid;
+  background-color:   white;
+  border-radius: 0.5rem;
+  margin: 1rem;
+}
+.card:hover{
+  -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+
+}
+.card-body{
+  padding: 1rem;
+  background-color: #d1f2eb ;
+  color:  #2471a3 ;
+  font-weight: lighter;
+}
+.card-body>*{
+  margin-bottom: 0.5rem;
+}
+.price{
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: right;
+}
+
+
+h1{
+  font-size: 1.8rem;
+  padding: 1rem  0 ;
+}
+h2{
+  font-size: 1.6rem;
+  padding: 1rem  0 ;
+}
+h2:hover{
+  color:  #2471a3 ;
+}
