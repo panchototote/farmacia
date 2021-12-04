@@ -56,16 +56,16 @@ a:hover{
 }
 /* header links*/
 header a{
-  color: #faebd7;
+  color: #d1f2eb;
   padding: 1rem;
 }
 a.brand{
-  color: #faebd7;
+  color: #d1f2eb;
   font-size: 3rem;
   font-weight: bold;
 }
 a.brand:hover{
-  color:  #d1f2eb  ;
+  color:  antiquewhite  ;
 }
 .row{
   display: flex;
